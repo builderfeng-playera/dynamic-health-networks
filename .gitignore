@@ -2,8 +2,25 @@
 raw_data/
 processed_data/
 
-# Project proposal
+# Paper source files (kept locally, not in repo)
+paper/*.md
+paper/*.tex
+paper/*.bib
+paper/*.sty
+paper/*.bst
+paper/*.html
+paper/*.pdf
+
+# Internal docs and proposals
+docs/
 SD4H_paper_proposal_v2_n_of_1.md.pdf
+Dynamic Health Networks.*
+
+# Generated visualization PNGs (regenerate from code)
+visualizations/*.png
+
+# Analysis output (regenerate from code)
+analysis/network_results.json
 
 # Python
 __pycache__/
